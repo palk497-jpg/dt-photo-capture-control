@@ -1,6 +1,6 @@
 {
-  "active": true,
-  "expires": "2027-12-31",
+  "active": false,
+  "expires": "2027-1-31",
   "maxOfflineHours": 72,
 
   "messages": {
