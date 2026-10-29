@@ -1,21 +1,62 @@
 {
   "active": true,
-  "message": "This app has been deactivated by the developer (Bhaskar). Please contact Bhaskar.",
-  "blocked": [],
-  "allowOnly": [],
-  "expires": "2027-1-31",
-  "minVersion": 1,
-  "latestVersion": 1,
-  "updateUrl": "",
-  "updateNotes": "",
-  "announcement": { "id": "", "title": "", "text": "" },
+  "expires": "2027-12-31",
+  "maxOfflineHours": 72,
+
+  "messages": {
+    "deactivated": "This app has been deactivated by the developer (Bhaskar). Please contact Bhaskar.",
+    "blockedDevice": "Your device ID has been restricted from using this application. Contact administrator.",
+    "expired": "The project license has expired. Please contact Bhaskar for renewal.",
+    "updateRequired": "A critical update is required to continue using DT Photo Capture."
+  },
+
+  "access": {
+    "blocked": [],
+    "allowOnly": [],
+    "admins": []
+  },
+
+  "version": {
+    "minVersion": 1,
+    "latestVersion": 1,
+    "forceUpdate": false,
+    "updateUrl": "",
+    "updateNotes": ""
+  },
+
+  "announcement": {
+    "id": "",
+    "title": "",
+    "text": "",
+    "showOnce": true
+  },
+
+  "reporting": {
+    "enabled": true,
+    "reportUrl": "",
+    "syncIntervalMinutes": 60
+  },
+
   "features": {
     "single": true,
     "multi": true,
     "multiCount": 4,
     "stamp": true,
-    "farWarnMeters": 100,
     "map": true,
-    "export": true
+    "export": true,
+    "allowGalleryPick": false
+  },
+
+  "gps": {
+    "farWarnMeters": 100,
+    "hardBlockFarMeters": 0,
+    "maxAccuracyMeters": 30,
+    "blockMockLocation": true
+  },
+
+  "photo": {
+    "maxDimensionPx": 1920,
+    "jpegQuality": 85,
+    "stampPrefix": ""
   }
 }
