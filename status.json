@@ -2,6 +2,20 @@
   "active": true,
   "message": "This app has been deactivated by the developer (Bhaskar). Please contact Bhaskar.",
   "blocked": [],
-  "expires": "2027-01-31",
-  "minVersion": 1
+  "allowOnly": [],
+  "expires": "2027-12-31",
+  "minVersion": 1,
+  "latestVersion": 1,
+  "updateUrl": "",
+  "updateNotes": "",
+  "announcement": { "id": "", "title": "", "text": "" },
+  "features": {
+    "single": true,
+    "multi": true,
+    "multiCount": 4,
+    "stamp": true,
+    "farWarnMeters": 100,
+    "map": true,
+    "export": true
+  }
 }
