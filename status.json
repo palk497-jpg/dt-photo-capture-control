@@ -18,7 +18,7 @@
 
   "version": {
     "minVersion": 1,
-    "latestVersion": 1,
+    "latestVersion": 2,
     "forceUpdate": false,
     "updateUrl": "",
     "updateNotes": ""
